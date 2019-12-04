@@ -1,6 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
 import './styles/index.css';
 import App from './components/App';
+//react-bootstrep css ide
+//setstate, useeffect react hookokat megnézni, functional components
+//spread operátor, splice slice
+//prettier plugin vs code-ba
 
-ReactDOM.render(<App />, document.getElementById('app'));
+render(<App />, document.getElementById('app'));
